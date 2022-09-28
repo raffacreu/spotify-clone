@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 //import React from "react";
-import Login from './Login';
+import Login from './components/login/Login';
 import { useEffect, useState } from 'react';
-import { getTokenFromUrl } from './spotify';
+import { getTokenFromUrl } from './services/spotify';
 import SpotifyWebApi from 'spotify-web-api-js';
-import Player from './Player';
-import { useDataLayerValue } from './DataLayer';
-import reducer from './reducer';
+import Player from './components/player/Player';
+import { useDataLayerValue } from './context/DataLayer';
+import reducer from './reducer/reducer';
 
 const spotify = new SpotifyWebApi()
 
