@@ -6,3 +6,27 @@
     background: linear-gradient(rgb(91, 87, 115), rgba(00, 00, 00));
 }
 
+.body_info {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px;
+}
+
+.body_info > img {
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body_infoText {
+    flex: 1;
+}
+
+.body_infoText > h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.body_infoText > p {
+    font-size: 14px;
+}

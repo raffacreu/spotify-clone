@@ -42,6 +42,13 @@ function App() {
           playlists: playlists,
         })
       })
+
+      spotify.getPlaylist('37i9dQZEVXcCpA0TBnOrqy').then(response => {
+        dispatch({
+          type: 'SET_DISCOVERY_WEEKLY',
+          discovery_weekly: response,
+        })
+      })
     }
 
     console.log('I HAVE A TOKEN >>>', token)
