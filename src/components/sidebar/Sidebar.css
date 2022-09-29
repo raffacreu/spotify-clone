@@ -14,3 +14,9 @@
     height: 60px;
     padding: 20px;
 }
+
+.sidebar_title {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
