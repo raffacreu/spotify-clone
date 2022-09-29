@@ -4,7 +4,7 @@ import { PlayCircleOutline, SkipPrevious, SkipNext, Shuffle, Repeat, PlaylistPla
 import { Grid, Slider } from '@mui/material'
 
 
-function Footer() {
+function Footer({ spotify }) {
   return (
     <div className='footer'>
         <div className='footer_left'>
